@@ -2,6 +2,19 @@
 
 Simplicidade nos detalhes, eficiência nos cálculos. Uma experiência moderna que combina praticidade, precisão e design intuitivo.
 
+## 🎓 Contexto do projeto
+
+O Calcify foi desenvolvido como parte do **Desafio 1 da Imersão Engenharia de Software: Dev na Era da IA**, promovida pela [Alura](https://www.alura.com.br/).
+
+A proposta do desafio envolveu a criação de uma calculadora utilizando o **Google AI Studio** como ferramenta de apoio ao desenvolvimento.
+
+Durante a atividade, foram trabalhados conceitos de lógica de programação, operações matemáticas e construção de aplicações. O projeto também passou por aprimoramentos posteriores, incluindo funcionalidades adicionais e melhorias na experiência do usuário.
+
+**Ferramentas utilizadas no desenvolvimento:**
+- [Alura](https://www.alura.com.br/) — plataforma responsável pela imersão.
+- [Google AI Studio](https://aistudio.google.com/) — ferramenta de IA utilizada como apoio na criação e evolução do projeto.
+- Python e Tkinter — tecnologias utilizadas na implementação da calculadora.
+
 ---
 
 ## 🎨 Identidade Visual (Design System)
@@ -69,10 +82,20 @@ OK
 ---
 
 ## ⌨️ Atalhos de Teclado Suportados
-- **Números 0 a 9:** Digitação rápida
-- **Ponto (.) ou Vírgula (,):** Separador decimal
-- **+, -, \*, /:** Operações básicas
-- **%:** Porcentagem
-- **Enter ou =:** Calcular resultado
-- **Backspace (⌫):** Apagar último dígito
-- **Esc ou C:** Limpar tudo (AC)
+
+| Tecla | Função |
+|---|---|
+| `0–9` | Inserir números |
+| `.` | Inserir separador decimal |
+| `+` | Adição |
+| `-` | Subtração |
+| `*` | Multiplicação |
+| `/` | Divisão |
+| `%` | Porcentagem |
+| `Enter` ou `=` | Calcular resultado |
+| `Backspace` | Apagar o último caractere |
+| `Esc` ou `C` | Limpar a operação atual |
+
+---
+
+⭐ Se você gostou do projeto, deixe uma estrela no repositório!
