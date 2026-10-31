@@ -1,0 +1,6 @@
+{
+  "name": "Calcify - Calculadora Moderna & Python Suite",
+  "description": "Calculadora moderna Calcify com identidade visual exclusiva (#15151D, #A78BFA), calculadora interativa completa e código Python/Tkinter pronto para Windows com documentação para iniciantes.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
