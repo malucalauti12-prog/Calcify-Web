@@ -15,11 +15,7 @@ Simplicidade nos detalhes, eficiência nos cálculos. Uma experiência moderna q
 
 O Calcify foi desenvolvido inicialmente como parte do **Desafio 1 da Imersão Engenharia de Software: Dev na Era da IA**, promovida pela [Alura](https://www.alura.com.br/).
 
-A proposta original envolveu a criação de uma calculadora utilizando o **Google AI Studio** como ferramenta de apoio ao desenvolvimento.
-
-Durante a atividade, foram trabalhados conceitos de lógica de programação, operações matemáticas e construção de aplicações.
-
-Posteriormente, o projeto passou por uma evolução, sendo transformado em uma aplicação web, com uma nova estrutura de desenvolvimento e melhorias na interface e na experiência do usuário.
+A proposta inicial foi utilizada como ponto de partida para o desenvolvimento de uma calculadora. Posteriormente, o projeto foi aprimorado e expandido, passando por uma evolução até se tornar uma aplicação web desenvolvida com React e TypeScript.
 
 **Ferramentas utilizadas no desenvolvimento:**
 
