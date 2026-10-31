@@ -1,4 +1,4 @@
-# Calcify — Calculadora Web
+# Calcify — Calculadora Web Python
 
 
 ## 📸 Demonstração
