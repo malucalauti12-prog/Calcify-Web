@@ -1,4 +1,4 @@
-# Calcify — Calculadora Web Moderna
+# Calcify — Calculadora Web
 
 ![React](https://img.shields.io/badge/React-19-61DAFB?logo=react&logoColor=white)
 ![TypeScript](https://img.shields.io/badge/TypeScript-7-3178C6?logo=typescript&logoColor=white)
