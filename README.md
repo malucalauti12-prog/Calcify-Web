@@ -1,9 +1,5 @@
 # Calcify — Calculadora Web
 
-![React](https://img.shields.io/badge/React-19-61DAFB?logo=react&logoColor=white)
-![TypeScript](https://img.shields.io/badge/TypeScript-7-3178C6?logo=typescript&logoColor=white)
-![License](https://img.shields.io/badge/License-MIT-green)
-![Status](https://img.shields.io/badge/Status-Online-brightgreen)
 
 ## 📸 Demonstração
 
@@ -133,7 +129,7 @@ O Calcify está publicado na plataforma Render e pode ser acessado diretamente p
 
 **Link da aplicação:**
 
-https://calcify-hl9z.onrender.com/
+:link: **[Calcify — Calculadora Web](https://calcify-hl9z.onrender.com/)**
 
 ---
 
