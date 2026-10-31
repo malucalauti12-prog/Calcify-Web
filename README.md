@@ -5,6 +5,10 @@
 ![License](https://img.shields.io/badge/License-MIT-green)
 ![Status](https://img.shields.io/badge/Status-Online-brightgreen)
 
+## 📸 Demonstração
+
+![Tela do Calcify](./calcify.png)
+
 Simplicidade nos detalhes, eficiência nos cálculos. Uma experiência moderna que combina praticidade, precisão e design intuitivo.
 
 🌐 **[ACESSAR CALCIFY — VERSÃO ONLINE](https://calcify-hl9z.onrender.com/)**
