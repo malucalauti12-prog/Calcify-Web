@@ -1,5 +1,9 @@
 # Calcify - "Make numbers simple."
 
+![Python](https://img.shields.io/badge/Python-3.x-blue?logo=python&logoColor=white)
+![License](https://img.shields.io/badge/License-MIT-green)
+![Status](https://img.shields.io/badge/Status-Concluído-brightgreen)
+
 Simplicidade nos detalhes, eficiência nos cálculos. Uma experiência moderna que combina praticidade, precisão e design intuitivo.
 
 ## 🎓 Contexto do projeto
