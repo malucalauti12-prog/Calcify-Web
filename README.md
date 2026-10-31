@@ -1,27 +1,38 @@
-# Calcify - "Make numbers simple."
+# Calcify — "Make numbers simple."
 
-![Python](https://img.shields.io/badge/Python-3.x-blue?logo=python&logoColor=white)
+![React](https://img.shields.io/badge/React-19-61DAFB?logo=react&logoColor=white)
+![TypeScript](https://img.shields.io/badge/TypeScript-7-3178C6?logo=typescript&logoColor=white)
 ![License](https://img.shields.io/badge/License-MIT-green)
-![Status](https://img.shields.io/badge/Status-Concluído-brightgreen)
+![Status](https://img.shields.io/badge/Status-Online-brightgreen)
 
 Simplicidade nos detalhes, eficiência nos cálculos. Uma experiência moderna que combina praticidade, precisão e design intuitivo.
 
+🌐 **[ACESSAR CALCIFY — VERSÃO ONLINE](https://calcify-hl9z.onrender.com/)**
+
+---
+
 ## 🎓 Contexto do projeto
 
-O Calcify foi desenvolvido como parte do **Desafio 1 da Imersão Engenharia de Software: Dev na Era da IA**, promovida pela [Alura](https://www.alura.com.br/).
+O Calcify foi desenvolvido inicialmente como parte do **Desafio 1 da Imersão Engenharia de Software: Dev na Era da IA**, promovida pela [Alura](https://www.alura.com.br/).
 
-A proposta do desafio envolveu a criação de uma calculadora utilizando o **Google AI Studio** como ferramenta de apoio ao desenvolvimento.
+A proposta original envolveu a criação de uma calculadora utilizando o **Google AI Studio** como ferramenta de apoio ao desenvolvimento.
 
-Durante a atividade, foram trabalhados conceitos de lógica de programação, operações matemáticas e construção de aplicações. O projeto também passou por aprimoramentos posteriores, incluindo funcionalidades adicionais e melhorias na experiência do usuário.
+Durante a atividade, foram trabalhados conceitos de lógica de programação, operações matemáticas e construção de aplicações.
+
+Posteriormente, o projeto passou por uma evolução, sendo transformado em uma aplicação web, com uma nova estrutura de desenvolvimento e melhorias na interface e na experiência do usuário.
 
 **Ferramentas utilizadas no desenvolvimento:**
+
 - [Alura](https://www.alura.com.br/) — plataforma responsável pela imersão.
 - [Google AI Studio](https://aistudio.google.com/) — ferramenta de IA utilizada como apoio na criação e evolução do projeto.
-- Python e Tkinter — tecnologias utilizadas na implementação da calculadora.
+- React e TypeScript — tecnologias utilizadas na versão web.
+- Vite — ferramenta de desenvolvimento e build.
+- Render — plataforma utilizada para hospedagem.
 
 ---
 
 ## 🎨 Identidade Visual (Design System)
+
 - **Fundo Principal:** Grafite quase preto (`#15151D`)
 - **Card do Visor:** Grafite profundo (`#1C1C27`)
 - **Botões Secundários (Números):** Cinza escuro (`#252535`)
@@ -33,61 +44,75 @@ Durante a atividade, foram trabalhados conceitos de lógica de programação, op
 
 ---
 
-## 📁 Estrutura de Arquivos do Projeto
+## ✨ Funcionalidades
 
-```text
-calcify/
-│
-├── calcify.py            # Aplicação principal completa (GUI + Lógica)
-├── calculator_core.py    # Módulo de lógica matemática pura (Clean Code)
-├── test_calcify.py       # Bateria de testes unitários automatizados
-├── run_windows.bat       # Atalho executável de dois cliques para Windows
-└── README.md             # Documentação e instruções completas
-```
+- Operações matemáticas básicas.
+- Cálculo de porcentagem.
+- Interface moderna e intuitiva.
+- Interação diretamente pelo navegador.
+- Atalhos de teclado.
+- Tratamento de operações inválidas, como divisão por zero.
 
 ---
 
-## 💻 Instruções para Executar no Windows
+## 🛠️ Tecnologias utilizadas
 
-### Passo 1: Verificar se o Python está instalado
-Abra o **Prompt de Comando (CMD)** ou o **PowerShell** no Windows e digite:
-```cmd
-python --version
-```
-> Se o Python não estiver instalado:
-> 1. Baixe a versão mais recente em [python.org](https://www.python.org/downloads/).
-> 2. **IMPORTANTE:** Durante a instalação, marque a caixinha **"Add python.exe to PATH"**!
-> 3. Certifique-se de que a opção **"tcl/tk and IDLE"** (que inclui o Tkinter) está selecionada.
-
-### Passo 2: Executar a Calculadora
-Navegue até a pasta do projeto e execute:
-```cmd
-python calcify.py
-```
-*Ou simplesmente dê um duplo clique no arquivo `run_windows.bat`!*
+- **React 19** — construção da interface.
+- **TypeScript** — tipagem e organização do código.
+- **Vite 8** — desenvolvimento e geração da versão de produção.
+- **Tailwind CSS 4** — estilização da aplicação.
+- **Lucide React** — biblioteca de ícones.
+- **Motion** — animações e interações.
+- **Render** — hospedagem da aplicação web.
 
 ---
 
-## 🧪 Como Rodar os Testes Unitários
+## 💻 Como executar localmente
 
-Para testar todas as operações matemáticas e garantir que nenhum erro ocorra:
-```cmd
-python -m unittest test_calcify.py
-```
-Resultado esperado:
-```text
-...........
-----------------------------------------------------------------------
-Ran 11 tests in 0.001s
+### Pré-requisitos
 
-OK
+- [Node.js](https://nodejs.org/)
+- npm
+
+### Passo 1: Clonar o repositório
+
+```bash
+git clone https://github.com/malucalauti12-prog/Calcify.git
 ```
+
+### Passo 2: Entrar na pasta do projeto
+
+```bash
+cd Calcify
+```
+
+### Passo 3: Instalar as dependências
+
+```bash
+npm install
+```
+
+### Passo 4: Executar a aplicação
+
+```bash
+npm run dev
+```
+
+O Vite disponibilizará um endereço local para acessar o Calcify pelo navegador.
+
+### Passo 5: Gerar a versão de produção
+
+```bash
+npm run build
+```
+
+Os arquivos otimizados da aplicação serão gerados na pasta `dist`.
 
 ---
 
 ## ⌨️ Atalhos de Teclado Suportados
 
-| Tecla | Função |
+| **Tecla** | **Função** |
 |---|---|
 | `0–9` | Inserir números |
 | `.` | Inserir separador decimal |
@@ -99,6 +124,24 @@ OK
 | `Enter` ou `=` | Calcular resultado |
 | `Backspace` | Apagar o último caractere |
 | `Esc` ou `C` | Limpar a operação atual |
+
+---
+
+## 🚀 Deploy
+
+O Calcify está publicado na plataforma Render e pode ser acessado diretamente pelo navegador, sem necessidade de instalação.
+
+**Link da aplicação:**
+
+https://calcify-hl9z.onrender.com/
+
+---
+
+## 👩‍💻 Autora
+
+Desenvolvido por **Maria Luiza**.
+
+Projeto criado durante a Imersão Engenharia de Software: Dev na Era da IA, da Alura, e aprimorado como parte da minha jornada de aprendizado em programação.
 
 ---
 
